@@ -1,65 +1,814 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    
+<head>
+
+
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5ZXZMV');</script>
-<!-- End Google Tag Manager -->
-    
-     <style type="text/css">
-      html *  {
-        font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-       }
-       
-       body {margin:20;padding:20}
-    </style>
-    
-  </head>
-<body>
-  
-  <!-- Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager -->
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>abilis</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!--<link rel="shortcut icon" type="image/ico" href="favicon.ico" />-->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css" />
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body class="landing-page">
+
+
+<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZXZMV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  
 
-  <h1>V&auml;lkommen till <span style="color: #3498db;">abilis!</span></h1>
-  
-<h3>Talent Management &ndash; Human Capital Management</h3>
-<p>
-  abilis &auml;r ett molnbaserat verktyg i din webbl&auml;sare f&ouml;r att hantera och styra kompetens. 
-  Du kan enkelt kartl&auml;gga medarbetarnas kompetens, ta fram kompetensplan f&ouml;r organisationen och se behov av 
-  kompetensutveckling ned p&aring; individniv&aring;. abilis effektiviserar utvecklingssamtal och st&ouml;ttar 
-  ledarna med bl.a. utvecklingsplan. Kompetenser &auml;r s&ouml;kbara och du hittar r&auml;tt person f&ouml;r uppgiften. 
-  Du kan ocks&aring; h&aring;lla reda p&aring; dina medarbetares certifikat och beh&ouml;righeter. 
-  Medarbetarna engageras genom att se organisationens kompetensutvecklingsbehov och kan d&auml;rmed ta 
-  ansvar f&ouml;r sin egen och organisationens kompetensutveckling.
-  </p>
 
-  <h3>Vi arbetar f&ouml;r fullt med hemsidan och planerar att den ska vara f&auml;rdig första kvartalet 2017!</h3>
 
-  <p>Om du undrar n&aring;got eller vill prata om vad abilis kan g&ouml;ra f&ouml;r dig, s&aring; &auml;r du mycket v&auml;lkommen att kontakta:</p>
-<p>Marie Westergren Eklund<br/>
-<a href="mailto:marie.westergren-eklund@abilis.se">marie.westergren-eklund@abilis.se</a><br/>
-tel. 070-6443960<br/>
-  </p>
-<p>eller</p>
-<p>Ulf Eklund<br/>
-<a href="mailto:ulf.eklund@abilis.se">ulf.eklund@abilis.se</a><br/>
-tel. 070-3716600<br/>
-  </p>
+<!-- Simple splash screen-->
+<div class="splash"> <div class="color-line"></div><div class="splash-title"><h1>abilis</h1><img src="images/loading-bars.svg" width="64" height="64" /> </div> </div>
+<!--[if lt IE 7]>
+<p class="alert alert-danger">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-  <p>eller</p>
-<p>Torbjörn Stavenek<br/>
-<a href="mailto:torbjorn.stavenek@abilis.se">torbjorn.stavenek@abilis.se</a><br/>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">abilis</a>
+            <div class="brand-desc">
+                Konkret st&ouml;d f&ouml;r Talent Management 
+            </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a class="page-scroll" href="#page-top">Hem </a></li>
+                <li><a class="page-scroll" page-scroll href="#components">Produkter</a></li>
+                <li><a class="page-scroll" page-scroll href="#features">Priser</a></li>
+                <li><a class="page-scroll" page-scroll href="#team">Talent Management</a></li>
+                <li><a class="page-scroll" page-scroll href="#pricing">Tj&auml;nster </a></li>
+                <li><a class="page-scroll" page-scroll href="#clients">Om oss </a></li>
+                <li><a class="page-scroll" page-scroll href="#contact">Kontakta</a></li>
+                <li><a class="navbar-brand" id="loggin_button" href="http://tool.abilis.se/login">Logga in</a></li>
+            </ul>
+        </div>
 
-  <p>&nbsp;</p>
-<p>Vi ses!</p>
-<p>&nbsp;</p>
-  <p>V&auml;nnerna p&aring; <span style="color: #3498db;">abilis</span></p>
-  
+    </div>
+</nav>
+
+<header id="page-top">
+    <div class="container">
+        <div class="heading">
+            <h1>
+                L&auml;nge leve kompetensen!
+
+            </h1>
+          
+          <p class="small">
+                          Vi &auml;r &ouml;vertygade om att det i varje f&ouml;retag finns outnyttjad kompetens som r&auml;tt anv&auml;nd f&aring;r verksamheten att v&auml;xa och frodas. </br></br> Om du vill utveckla verksamheten, s&aring; har vi verktyget f&ouml;r dig! abilis hj&auml;lper dig att synligg&ouml;ra och utveckla r&auml;tt kompetens.</br></br> V&auml;lkommen till abilis!
+                       </p> 
+           <!--  <a href="#" class="btn btn-success btn-sm">L&auml;s mer</a>--> 
+        </div>
+        <div class="heading-image animate-panel" data-child="img-animate" data-effect="fadeInRight">
+          <!--  <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
+            <img class="img-animate" src="images/landing/c1.jpg">
+            <img class="img-animate" src="images/landing/c2.jpg">
+            <img class="img-animate" src="images/landing/c3.jpg">
+            <img class="img-animate" src="images/landing/c4.jpg">
+            <br/>
+            <img class="img-animate" src="images/landing/c5.jpg">
+            <img class="img-animate" src="images/landing/c6.jpg">
+            <img class="img-animate" src="images/landing/c7.jpg">
+            <img class="img-animate" src="images/landing/c8.jpg">
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Kompetenshanteringsverktyg</h4>
+            <p>Enkel, tidseffektiv och funktionell webbtj&auml;nst med smarta funktioner f&ouml;r systematisk kompetensstyrning och utveckling.</p>
+            <p><a class="navy-link btn btn-sm page-scroll"  page-scroll href="#components" role="button">L&auml;s mer</a></p>
+        </div>
+        <div class="col-md-4">
+            <h4>Om Kompetensstyrning &amp; TM</h4>
+            <p>Kompetensstyning, eller som det ocks&aring; kallas, Talent
+Management (TM), s&auml;kerst&auml;ller att verksamheten har
+r&auml;tt kompetens f&ouml;r att n&aring; m&aring;l och strategier.
+</p>
+            <p><a class="navy-link btn btn-sm page-scroll" page-scroll href="#team" role="button">L&auml;s mer</a></p>
+        </div>
+        <div class="col-md-4">
+            <h4>&Ouml;vriga Tj&auml;nster </h4>
+            <p>Ibland kan det vara sv&aring;rt att veta var man ska b&ouml;rja, eller
+s&aring; vet man exakt var man vill b&ouml;rja, men beh&ouml;ver extra
+resurser. Vi hj&auml;lper dig att lyckas!</p>
+            <p><a class="navy-link btn btn-sm page-scroll" page-scroll href="#pricing" role="button">L&auml;s mer</a></p>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="components" class="bg-light">
+    <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <h2><span class="text-success">Produkter och funktioner f&ouml;r kompetenshantering</span></h2>
+                <p><span class="text-success">abilis</span> &auml;r en webbtj&auml;nst som hj&auml;lper dig att arbeta systematiskt med kompetenshantering och styrning (Talent Management). Det finns m&aring;nga olika funktioner som kan
+anv&auml;ndas var f&ouml;r sig, eller tillsammans f&ouml;r att st&ouml;dja kompetensstyrningen i s&aring; gott som alla steg. H&ouml;r av dig f&ouml;r en presentation eller f&ouml;ruts&auml;ttningsl&ouml;s diskussion. V&auml;lkommen!  </p>
+            </div>
+        </div>
+        <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <h4 class=".m-t-none">Flexibla m&ouml;jligheter</h4>
+                <p><span class="text-success">abilis</span> best&aring;r av en huvudprodukt, &rdquo;kompetens&rdquo; f&ouml;r kompetensstyrning (Talent
+Management) och till&auml;ggsprodukten &rdquo;konsult&rdquo;. </br></br>
+Kompetens inneh&aring;ller funktioner f&ouml;r hela processen fr&aring;n att s&auml;tta kompetensm&aring;l f&ouml;r
+verksamheten till olika typer av kartl&auml;ggning och analys till utvecklingssamtal och
+utvecklingsplaner.</br></br>
+Konsult inneh&aring;ller CV&rsquo;s/konsultprofiler och underkonsulthantering. &Auml;ven vanliga
+f&ouml;retag kan ha nytta av att h&aring;lla ordning p&aring; sina konsulter och kunna generera CV.</br></br>
+Utvecklingssamtal eller kompetenskartl&auml;ggning? Kanske beh&ouml;ver du just nu &rdquo;bara&rdquo;
+st&ouml;d f&ouml;r utvecklingssamtal, eller kompetenskartl&auml;ggning. Inga problem, de g&aring;r att
+k&ouml;pa separat. Andra moduler kan l&auml;ggas till senare vid behov.</br></br>
+Varmt v&auml;lkommen att kontakta oss f&ouml;r en demo eller provlicens!
+</p>
+
+            <a class="navy-link btn btn-sm page-scroll float-right m-l" page-scroll href="#contact" role="button">Kontakta oss</a>
+            <a class="navy-link btn btn-sm page-scroll float-right" page-scroll href="#features" role="button">Visa erbjudanden</a>   
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s1.jpg" class="img-responsive">
+            </div>
+        </div>
+
+          <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <img src="images/landing/s2.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+            <h4 class=".m-t-none">Fler f&ouml;rdelar</h4>
+            <ul>
+
+              <li>L&auml;tt att anv&auml;nda och administrera</li>
+              <li>St&ouml;djer HR, chefer och medarbetare (och f&ouml;r konsult &auml;ven konsults&auml;ljare)</li>
+              <li>Effektivt st&ouml;d. M&aring;l, utvecklingssamtal, kartl&auml;ggningar, utvecklingsplaner.
+Allt kan enkelt styras och f&ouml;ljas upp av HR eller chefer</li>
+              <li>St&ouml;djer ledningssystemet f&ouml;r kompetensf&ouml;rs&ouml;rjning: svensk standard (SIS)
+SS 624070:2009</li>
+              <li>Kostnadseffektivt</li>
+
+                <li>Vi kopplar ihop med t.ex. personalsystem och Intran&auml;t</li>
+                <li>M&ouml;jlighet att f&aring; s&auml;rskilda behov av funktioner implementerade </li>
+                <li>Utvecklas med nya smarta funktioner kontinuerligt  </li>
+
+            </ul>  
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center"><span class="text-success">Erbjudanden f&ouml;r din kompetenshantering</span></h2>
+                <p>Du kan v&auml;lja mellan abilis kompetens (F&ouml;r kompetensstyrning/Talent Management)
+                    och abilis konsult (abilis kompetens + konsultprofiler och underkonsulthantering).
+
+                    <br>Det g&aring;r ocks&aring; bra att v&auml;lja vissa moduler separat (utvecklingssamtal
+                    och kompetenskartl&auml;ggning). Modulerna erbjuds som webbtj&auml;nst med en m&aring;nadskostnad
+                    (serverlicens finns p&aring; f&ouml;rfr&aring;gan).
+
+                    <br>Tjänsten faktureras för ett år i taget.
+                </p>
+            </div>
+        </div>
+
+    <div class="row m-t-lg">
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        <span class="text-success">abilis kompetens</span>
+                    </li>
+
+                    <li class="pricing-sub">Komplett abilis Kompetensstyrning.</li>
+
+                    <li>Organisation</li>
+                    <li>Medarbetare</li>
+                    <li>Roller</li>
+                    <li>Kompetens</li>
+                    <li>Sök kompetens</li>
+                    <li>Kompetensmål organisation</li>
+                    <li>Kompetenskartläggning</li>
+                    <li>360-mätning</li>
+                    <li>kompetensskattning</li>
+                    <li>Analys</li>
+                    <li>Utvecklingssamtal</li>
+                    <li>Utvecklingsplan </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled selected">
+                    <li class="pricing-title">
+                        <span class="text-success">abilis konsult</span>
+                    </li>
+                    <li class="pricing-sub">abilis Kompetens plus CV/konsultprofil och underkonsult-hantering. </li>
+                    <li class="m-t-lg">abilis kompetens (se t.v.) + </li>
+                    <li class="m-t-xl">CV/Konsultprofil</li>
+                    <li>Underkonsult</li>
+                       
+                </ul>
+            </div>
+
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                       <span class="text-success"> Skr&auml;ddarsydda l&ouml;sningar</span>
+                    </li>
+                    <li class="pricing-desc">
+                       N&auml;r ni har behov av att installera
+                        abilis p&aring; egen server, eller har andra
+                        s&auml;rskilda krav &auml;r ni mycket
+                        v&auml;lkomna att kontakta oss f&ouml;r en
+                        f&ouml;ruts&auml;ttningsl&ouml;s diskussion och
+                        offertf&ouml;rfr&aring;gan.
+
+                    </li>
+                   
+                </ul>
+
+
+            </div>
+            </div>
+
+         <div class="row m-t-lg" >
+            <a class="navy-link btn btn-sm page-scroll float-right m-l" page-scroll href="#contact" role="button">Kontakta oss</a>
+            <a class="navy-link btn btn-sm page-scroll float-right" page-scroll href="#price" role="button">Se priser</a>   
+        </div>
+
+        <div class="row" id="price"></div>
+
+        <div class="row m-t-xxl" >
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <h2><span class="text-success">Priser</span></h2>
+            </div>
+        </div>           
+
+     <div class="row m-t-lg">
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                       <span class="text-success"> abilis kompetens</span>
+                    </li>
+                    <li class="pricing-sub">
+                        Komplett abilis Talent Management
+                    </li>
+                    <li>
+                    <table class="m-t-lg" >
+
+                    <tr>
+                            <td><br> </td>
+                            <td><br> </td>
+                        
+                        </tr>
+                        <tr>
+                            <td>Anv&auml;ndare </td>
+                            <td>Komplett pris SEK / m&aring;n </td>
+                        </tr>
+                        <tr>
+                            <td><br> </td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td>1 – 10</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>11 – 15</td>
+                            <td>600</td>
+                        </tr>
+                        <tr>
+                            <td>16 – 25</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>26 – 50</td>
+                            <td>2400</td>
+                        </tr>
+                        <tr>
+                            <td>51 – 100</td>
+                            <td>3600</td>
+                        </tr>
+                        <tr>
+                            <td>101 – 250</td>
+                            <td>4800</td>
+                        </tr>
+                        <tr>
+                            <td>251 – 500</td>
+                            <td>6000</td>
+                        </tr>
+                        <tr>
+                            <td>501 – 1000</td>
+                            <td>9000</td>
+                        </tr>
+                        <tr>
+                            <td class="pre">1001 – 2000</td>
+                            <td>12000</td>
+                        </tr>
+                        <tr>
+                            <td>2001-</td>
+                            <td>Offert</td>
+                        </tr>
+                    </table>
+                       
+                    </li>
+                     <li>Exempel: F&ouml;r 8 anst&auml;llda betalar du endast totalt 80 kronor/m&aring;nad (8 kronor/medarbetare!)</li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled selected">
+                    <li class="pricing-title">
+                        <span class="text-success">abilis konsult</span>
+                    </li>
+                    <li class="pricing-sub">
+                        Komplett abilis Talent Management plus CV/konsultprofil och underkonsulthantering
+                    </li>
+                    
+                    <li>
+                     <table>
+
+                        <tr>
+                            <td><br> </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Anv&auml;ndare </td>
+                            <td>Komplett pris SEK / m&aring;n </td>
+                        </tr>
+                         <tr>
+                            <td><br> </td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td>1 – 10</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>11 – 15</td>
+                            <td>750</td>
+                        </tr>
+                        <tr>
+                            <td>16 – 25</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>26 – 50</td>
+                            <td>3000</td>
+                        </tr>
+                        <tr>
+                            <td>51 – 100</td>
+                            <td>4500</td>
+                        </tr>
+                        <tr>
+                            <td>101 – 250</td>
+                            <td>6000</td>
+                        </tr>
+                        <tr>
+                            <td>251 – 500</td>
+                            <td>7500</td>
+                        </tr>
+                        <tr>
+                            <td>501 – 1000</td>
+                            <td>11250</td>
+                        </tr>
+                        <tr>
+                            <td class="pre">1001 – 2000</td>
+                            <td>15000</td>
+                        </tr>
+                        <tr>
+                            <td>2001-</td>
+                            <td>Offert</td>
+                        </tr>
+                    </table>
+                       
+                    </li>
+                    <li>Exempel: F&ouml;r 8 anst&auml;llda betalar du endast totalt 100 kronor/m&aring;nad (10 kronor/medarbetare!). </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3">
+                <ul class="pricing-plan list-unstyled">
+                    <li class="pricing-title">
+                        <span class="text-success">Skr&auml;ddarsydda l&ouml;sningar</span>
+                    </li>
+                    <li class="pricing-desc">
+                        N&auml;r ni har behov av att installera abilis p&aring; egen server, eller har andra s&auml;rskilda krav. V&auml;lkommen att kontakta oss f&ouml;r offert.
+                    </li>
+                    <li >
+                        
+                    </li>
+                   
+                </ul>
+
+
+            </div>
+            </div>
+
+             <div class="row m-t-lg">
+            <a class="navy-link btn btn-sm page-scroll float-right m-l" page-scroll href="#contact" role="button">Kontakta oss</a>
+            <a class="navy-link btn btn-sm page-scroll float-right" page-scroll href="#components" role="button">L&auml;s mer</a>   
+        </div>
+
+          
+</section>
+
+<section id="team" class="bg-light">
+    <div class="container">
+
+    <div class="row">
+            <div class="col-lg-12">
+                <h2><span class="text-success">Kompetensutveckling</span> hj&auml;lper dig att f&aring; det b&auml;sta av dina medarbetare </h2>
+                <p>Talent Management, anv&auml;nds ibland p&aring; lite olika s&auml;tt, allt fr&aring;n att vara en synonym till HR (Human Relations) till att hantera endast nyckelpersoner. F&ouml;r oss betyder
+Talent Management kompetensstyrning - att s&auml;kerst&auml;lla att verksamheten vid varje tillf&auml;lle har r&auml;tt kompetenser f&ouml;r att n&aring; m&aring;l och strategier.  </p>
+            </div>
+        </div>
+        <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <h4 class=".m-t-none">Medabetarna f&aring;r det att h&auml;nda</h4>
+                <p>Att f&aring; de viktiga kundkontrakten, leverera en produkt med h&ouml;g kvalitet, eller f&aring; en
+missn&ouml;jd kund n&ouml;jd. Allt &auml;r beroende av att medarbetarna g&ouml;r ett bra jobb. </br></br>
+A och O &auml;r r&auml;tt kompetens. Wikipedia beskriver kompetens som &rdquo;&hellip; ett samlingsbegrepp
+f&ouml;r en individs f&ouml;rm&aring;ga att utf&ouml;ra en uppgift genom att till&auml;mpa kunskaper och
+f&auml;rdigheter&hellip;.&rdquo;.</br></br>
+Vad kan d&aring; vara viktigare f&ouml;r ett f&ouml;retag &auml;n att arbeta systematiskt med att f&aring; r&auml;tt
+personer p&aring; r&auml;tt plats med r&auml;tt kompetens? L&auml;s om hur abilis kan hj&auml;lpa dig.
+</p>
+<a class="navy-link btn btn-sm float-right page-scroll" page-scroll href="#components" role="button">L&auml;s mer</a>
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s3.jpg" class="img-responsive">
+            </div>
+        </div>
+
+          <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <img src="images/landing/s4.jpg" class="img-responsive">
+
+            </div>
+            <div class="col-md-6">
+            <h4 class=".m-t-none">R&auml;tt kompetens</h4>
+           <p>Talent Managementprocessen kan f&ouml;renklat beskrivas som att attrahera,
+           beh&aring;lla &amp; utveckla samt avveckla kompetens.</br></br>
+           F&ouml;r att veta vilken kompetens man ska anst&auml;lla eller utveckla s&aring; beh&ouml;ver man
+           f&ouml;rst&aring;s veta vilken kompetens som redan finns och vilken m&aring;lbilden &auml;r. Och
+           d&auml;refter ta fram och f&ouml;lja upp utvecklingsplaner. St&ouml;d f&ouml;r detta och mycket
+           mer finns i verktyget abilis. </p>
+
+           <a class="navy-link btn btn-sm float-right page-scroll" page-scroll href="#components" role="button">L&auml;s mer</a>
+
+            </div>
+        </div>
+
+
+        <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <h4 class=".m-t-none">Inf&ouml;rande av Talent Management och verktyg</h4>
+                <p>Man kan b&ouml;rja med att ta fram Talent Managementstrategi, process eller
+kompetensf&ouml;rs&ouml;rjningsplan. Eller ocks&aring; b&ouml;rjar man helt enkelt med att f&aring; koll
+p&aring; l&auml;get h&auml;r och nu genom t.ex. kompetenskartl&auml;ggning och analys eller att
+b&ouml;rja dokumentera utvecklingssamtal och planer i ett verktyg som abilis.</br></br>
+Det enda man &rdquo;m&aring;ste&rdquo; g&ouml;ra innan man s&auml;tter ig&aring;ng &auml;r att lista n&aring;gra av de
+kompetenser som &auml;r viktiga f&ouml;r verksamheten. Ett tips &auml;r att inkludera b&aring;de
+ren yrkeskunskap och beteenden som t.ex. hur man bem&ouml;ter kunder.</br></br>
+Om du beh&ouml;ver st&ouml;d i arbetet s&aring; hj&auml;lper vi dig sj&auml;lvklart g&auml;rna! 
+</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s5.jpg" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="row text-center m-t-lg">   <a class="navy-link btn btn-sm page-scroll" page-scroll href="#contact" role="button">Kontakta oss</a></div>
+        
+
+    </div>
+</section>
+
+
+
+<section id="pricing" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2><span class="text-success">Tj&auml;nster</span> som hj&auml;lper dig att n&aring; &auml;nnu l&auml;ngre  </h2>
+                <p>N&auml;r du beh&ouml;ver st&ouml;d i att implementera Talent Management eller med f&ouml;rberedelser f&ouml;r att b&ouml;rja anv&auml;nda verktyget abilis s&aring; hj&auml;lper vi g&auml;rna till. Vi har s&aring;v&auml;l egen senior
+expertis som experter i v&aring;rt konsultn&auml;tverk inom ledarskap, Talent Management/Kompetensstyrning &amp; HR och f&ouml;r&auml;ndringsledning. V&auml;lkommen f&ouml;r en f&ouml;ruts&auml;ttningsl&ouml;s
+diskussion! </br></br> </p>
+            </div>
+        </div>
+        <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <h4 class=".m-t-none">Talent Management/ kompetensstyrning</h4>
+                <p>Vi kan hj&auml;lpa dig med: </p>
+                <ul>
+
+                <li>Inspirationsf&ouml;rel&auml;sning</li>
+                <li>Talent Management/Kompetensstrategi</li>
+                <li>Kompetensf&ouml;rs&ouml;rjningsstrategi &ndash; framtida behov och plan f&ouml;r att m&ouml;ta dem</li>
+                <li>Utveckla processer och rutiner</li>
+                <li>Definiera kompetenser och roller</li>
+                <li>Kompetenskartl&auml;ggning - Vi anv&auml;nder verktyget abilis</li>
+                    
+                </ul>
+<a class="navy-link btn btn-sm float-right page-scroll" page-scroll href="#contact" role="button">Kontakta oss</a>
+            </div>
+            <div class="col-md-6">
+                <img src="images/landing/s6.jpg" class="img-responsive">
+            </div>
+        </div>
+
+          <div class="row  m-t-xl">
+            <div class="col-md-6">
+                <img src="images/landing/s7.jpg" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+            <h4 class=".m-t-none">B&ouml;rja anv&auml;nda abilis</h4>
+           <p>Om du känner att tiden inte räcker till, eller vill ha expertstöd av certifierad förändringsledare, så hjälper vi gärna till med: <br><br>
+
+<ul><li>Definiera kompetenser och roller</li> 
+<li>Workshopledning</li>
+<li>Uppdatera rutiner</li>
+<li>Leda eller stödja införandet av systemet i verksamheten - förändringsledning</li></ul> </p>
+
+           <a class="navy-link btn btn-sm float-right page-scroll" page-scroll href="#contact" role="button">Kontakta oss</a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="clients" class="bg-light">
+   <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center"><span class="text-success">L&aring;t talangreserven frodas!</span></h2>
+                <p>
+                    Vi tror att varje f&ouml;retag har en talangreserv (jmf &rdquo;guldreserv&rdquo;) som r&auml;tt utvecklad f&aring;r verksamheten att v&auml;xa och frodas. Att ta v&auml;l hand om kompetensen &ndash; de
+anst&auml;llda &ndash; g&ouml;r f&ouml;retaget mer attraktivt i konkurrensen om nya talanger. Och minskar kostnaderna n&auml;r de stannar l&auml;ngre. Att fokusera p&aring; kompetensutveckling
+som beh&ouml;vs f&ouml;r att uppfylla m&aring;l och strategier g&ouml;r att b&aring;de kapital och tid utnyttjas b&auml;ttre och bidrar till b&auml;ttre l&ouml;nsamhet! </br></br>
+Utifr&aring;n den &ouml;vertygelsen och egna erfarenheter som chef respektive medarbetare (och konsult) utvecklade vi d&auml;rf&ouml;r ett verktyg som hj&auml;lper dig att
+systematiskt utveckla f&ouml;retagets samlade f&ouml;rm&aring;ga - abilis! Abilis &auml;r latin och betyder just &rdquo;f&ouml;rm&aring;ga&rdquo;. Om du ocks&aring; anser att utveckling av dina medarbetares
+f&ouml;rm&aring;gor &auml;r viktig f&ouml;r verksamhetens framg&aring;ng s&aring; tveka inte att h&ouml;ra av dig f&ouml;r en f&ouml;ruts&auml;ttningsl&ouml;s diskussion, v&auml;lkommen!
+
+                </p>
+                <a class="navy-link btn btn-sm float-right page-scroll" page-scroll href="#contact" role="button">Kontakta oss</a>
+            </div>
+        </div>
+
+        <div class="row m-t-lg text-center">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="images/a1.jpg" class="img-circle img-small" alt="">
+                    <h4>Marie </h4>
+                    <p><span class="text-success">Produkten.</span> Marie Westergren Eklund gillar att utveckla
+medarbetare och verksamheter och har ett &ouml;ga f&ouml;r hur
+verksamheter kan digitaliseras. Exempel p&aring; tidigare roller
+&auml;r managementkonsult, CIO, VD och utvecklingschef. Och
+kravanalytiker f&ouml;rst&aring;s. &Auml;r ekonom i grunden med
+inriktning mot ledarskap och organisation. 
+ </p>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="images/a2.jpg" class="img-circle" alt="">
+                    <h4>Torbj&ouml;rn </h4>
+                    <p><span class="text-success">Tekniken.</span> Torbj&ouml;rn Stavenek tillh&ouml;r den unika skaran av IT-experter
+som beh&auml;rskar hela v&auml;gen fr&aring;n verksamhet till de
+mest komplexa tekniska utmaningarna. Gillar att vara med hela vägen från konceptutveckling, via implementation, till lansering
+                        av nya tjänster och IT-system. Exempel p&aring;
+tidigare roller &auml;r arkitekt, teknisk projektledare och
+utvecklare. </p>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="images/a3.jpg" class="img-circle img-small" alt="">
+                    <h4>Ulf</h4>
+                    <p><span class="text-success">Kunden.</span> Ulf Eklund har en sp&auml;nnvidd fr&aring;n aff&auml;rsutveckling
+till drift och underh&aring;ll och gillar att g&ouml;ra kunder n&ouml;jda!
+Exempel p&aring; tidigare roller &auml;r managementkonsult,
+aff&auml;rsutvecklare, inf&ouml;rande- och supportchef,
+tj&auml;nsteutvecklare och produktledare. </p>
+
+                </div>
+            </div>
+        </div>
+    
+
+    </div>
+</section>
+<section id="contact" >
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+                <h2><span class="text-success">V&auml;lkommen!</span> att kontakta oss </h2>
+                <p>
+                    Om du vill ha en demo, provlicens alternativt &ouml;nskar mer information eller har n&aring;gon fr&aring;ga, tips eller
+fundering s&aring; tveka inte att kontakta oss. Vi ser fram emot att h&ouml;ra av dig, v&auml;lkommen!
+                </p>
+            </div>
+        </div>
+
+        <div class="row text-center m-t-lg">
+            <div class="col-md-5 col-md-offset-3">
+
+                <form class="form-horizontal" role="form" method="post" action="https://formspree.io/formspree@purpur.se">
+                    <div class="form-group">
+                        <input type="text" name="robotar_fyller_i_detta_falt" value="" style="display:none" />
+
+                        <label for="name" class="col-sm-2 control-label">Namn</label>
+
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Ditt namn" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label">Epost</label>
+
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="col-sm-2 control-label">Meddelande</label>
+
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="3" name="message"  placeholder="Skriv ditt meddelande här..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input id="submit" name="submit" type="submit" value="Skicka meddelande" class="btn btn-success">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-3 text-left">
+                <address>
+                    <strong><span class="navy">abilis</span></strong><br/>
+                    <span>Eklund Strategi Konsult AB</span><br/>
+
+                    Backstigen 3<br/>
+                    619 91 Trosa, Sverige<br/>
+                    <abbr title="Phone">P:</abbr> 070 – 644 3960
+                </address>
+            
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12 padding-sides m-t-xxxl">
+            <h6>     <small>
+            Fotografi av medarbetare med gul hjälm på startsidan: Designed by Stockimages – Freedigitalphotos.net<br/>
+            Fotografi av medarbetare på sida Talent management: Designed by Pressfoto – Freepik.com<br/>
+            Fotografi av medarbetare med bl.a. man i grön skjorta på sida Tjänster: Image courtesy by nenetus – Freedigitalphotos.net<br/>
+            </small>
+            </h6>
+        </div>
+    </div>
+</section>
+
+<div class="pop-up"> 
+
+<div class="row">
+
+<div class="close"><svg class="close_svg" viewBox="0 0 32 32"><defs><style>.close-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title>close</title><polyline class="close-1" points="1 31 15.983 16 1 1"/><polyline class="close-1" points="31 1 16.017 16 31 31"/></svg></div>
+
+</div>
+
+<div class="row m-t-sm">
+
+<div class="col-lg-12 text-center"><h2>Inloggning</h2></div>
+    
+    
+</div>
+
+<div class="row m-t-sm">
+
+        <div class="col-md-4 col-md-offset-3 loggain-bg m-t-xl col-centered">
+
+                <form class="form-horizontal" role="form" method="post" action="#">
+                    <div class="form-group loggain-group">
+                        <label for="email" class="col-sm-2 control-label dont-float">Epost</label>
+
+                        <div class="col-sm-10 dont-float full-width m-t-xs">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="user@example.com" value="">
+                        </div>
+                    </div>
+                    <div class="form-group loggain-group">
+                        <label for="name" class="col-sm-2 control-label dont-float">Namn</label>
+
+                        <div class="col-sm-10 dont-float full-width m-t-xs">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Ditt namn" value="">
+                        </div>
+                    </div>
+                    <div class="form-group loggain-group">
+                        <div class="col-sm-12 ">
+                            <input id="loggin" name="submit" type="submit" value="Skicka meddelande" class="btn btn-success">
+                        </div>
+                    </div>
+                    <div class="form-group loggain-group">
+                        <div class="col-sm-12">
+                            <input id="register" name="submit" type="submit" value="Skicka meddelande" class="btn btn-success">
+                        </div>
+                    </div>
+                    <div class="form-group loggain-group padding-15">
+                        <div class="col-sm-12">
+                            <input id="forgot" name="submit" type="submit" value="Skicka meddelande" class="btn btn-success">
+                        </div>
+                    </div>
+                    
+                </form>
+
+            </div>
+    </div>
+
+</div>
+<div class="blur"></div>
+
+<!-- Vendor scripts -->
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+<script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+<script src="vendor/iCheck/icheck.min.js"></script>
+<script src="vendor/sparkline/index.js"></script>
+
+<!-- App scripts -->
+<script src="scripts/homer.js"></script>
+
+<!-- Local script for menu handle -->
+<!-- It can be also directive -->
+<script>
+    $(document).ready(function () {
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+        });
+
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+    });
+</script>
+
 </body>
 </html>
